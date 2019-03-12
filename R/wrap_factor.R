@@ -17,7 +17,7 @@
 #' wrap_factor()
 
 
-wrap_factor() <- function(x, n) {
+wrap_factor <- function(x, n) {
   levels(x) <- stringr::str_wrap(levels(x), n)
   x
 }
