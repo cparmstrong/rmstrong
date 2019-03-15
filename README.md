@@ -1,10 +1,7 @@
 # rmstrong
 Clay's Helper Functions
 
-This is my package for storing some basic functions I use to help automate tasks or make projects simpler.
+This is my package for storing some basic functions I use to help automate tasks or make projects simpler. I'm just now beginning the process of converting my miscellaneous functions stored in random ugly script files into properly documented function files that can be built into a proper R package.
 
 
-Current functions include:
-
-* wrap_factor: when your axis text is a string and is ordered but also needs to be wrapped
-* 
+I'm starting with my simlest function (wrap_factor) and working on figure out how to get it to install and run properly. I'm going to add in some test data and hopefully build a vignette too. From there I'll add the other functions piece by piece. 
